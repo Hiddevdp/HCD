@@ -4,7 +4,7 @@ In webontwikkeling streven we ernaar om producten te maken die voor iedereen bru
 
 ## Opdracht
 
-Voor dit vak zijn drie mensen uitgenodigd die elke week langs komen. Iedereen krijgt een persoon aangewezen om voor te ontwerpen. Deze mensen gebruiken het web op hun eigen manier, door hun beperkingen. De  opdracht is dus een prototype maken dat de wensen van deze persoon vervult. 
+Voor dit vak zijn drie mensen uitgenodigd die elke week langs komen. Iedereen krijgt een persoon aangewezen om voor te ontwerpen. Deze mensen gebruiken het web op hun eigen manier, door hun beperkingen. De opdracht is dus een prototype maken dat de wensen van deze persoon vervult.
 
 Mijn aangewezen persoon is Marie van Driessche. Zij is doof maar kijkt toch graag naar films en series en wilt naar podcasts kunnen luisteren. Aan mij de taak om iets te bedenken dat hierbij helpt.
 
@@ -33,12 +33,34 @@ Tijdens het interview viel het mij op dat Marie (via een doventolk) erg veel pra
 
 - Dune heeft goede cc. the lord of the rings ook. Muziek heb ik wel gemist in deze film. Vooral graag de sfeer en de stijl van de sprekers meekrijgen.
 
-Mijn conclusie is dan dat het belangrijkst is (en waar cc nu vaak in tekort komt) dat de emotie van de film of serie wordt overgebrackt. Dit gebeurt vaak in de vorm van muziek of geluid, of hoe iemand een bepaalde zijn uitspreekt. Dit zie je niet terug in de ondertiteling. Soms heb je in cc dat er staat *sad music* maar als je niet weet hoe droevige muziek klinkt heb je daar helemaal niets aan. 
+Mijn conclusie is dan dat het belangrijkst is (en waar cc nu vaak in tekort komt) dat de emotie van de film of serie wordt overgebrackt. Dit gebeurt vaak in de vorm van muziek of geluid, of hoe iemand een bepaalde zijn uitspreekt. Dit zie je niet terug in de ondertiteling. Soms heb je in cc dat er staat _sad music_ maar als je niet weet hoe droevige muziek klinkt heb je daar helemaal niets aan.
 
-Het doel dat ik ga proberen te behalen is dus het gevoel van de film of serie overbrengen zonder geluid. 
+Het doel dat ik ga proberen te behalen is dus het gevoel van de film of serie overbrengen zonder geluid.
 Ik heb al een paar ideeën:
+
+- Een visuele manier om de muziek te laten zien. Een beetje het idee van de oude windows media player.
+
+<img src="readme-img/windowsMediaPlayerVb.jpg" width="500px" alt="Windows Media Player voorbeeld">
 
 - het scherm doormiddel van lijnen en positie van ondertiteling te laten zien waar het vandaan komt en hoe het wordt uitgesproken.
 
- <img src="readme-images/theBearIdee1.jpg" width="500px" alt="The bear idee 1">
+ <img src="readme-img/theBearIdee1.jpg" width="500px" alt="The bear idee 1">
 
+In dit voorbeeld zie je "Marcus" achterin aan komt lopen. Hij roept "BEHIND!" zodat zijn collegas kunnen horen dat hij achterlangs loopt en ze niet naar achteren stappen. Zoals te zien is het in caps uitgeschreven met een uitroepteken om te laten zien hoe hard het wordt uitgesproken. "Richie" vraagt daarintegen zacht "what?" aan "Camry".
+
+## Week 2 - Prototypen en testen
+
+Tijdens het maken van het prototype ben ik verder gegaan met het idee van kleuren om de muziek visueler te maken. Ik kwam dit [artikel](https://www.linkedin.com/pulse/psychology-color-how-use-evoke-emotion-tacpoint/) tegen dat ingaat op de emoties die bepaalde kleuren bij mensen opbrengt:
+
+- Red: passion, love, excitement, anger, danger
+- Orange: joy, enthusiasm, creativity, warmth
+- Yellow: happiness, optimism, hope, energy
+- Green: nature, peace, calmness, growth
+- Blue: trust, loyalty, intelligence, sadness
+- Purple: luxury, mystery, creativity, wisdom
+- Pink: love, romance, femininity, gentleness
+- Black: sophistication, elegance, mystery, death
+- White: purity, innocence, cleanliness, simplicity
+
+Op basis van deze kleuren wil ik de achtergrond van de videospeler aanpassan naar de kleur die op dat moment past bij de muziek die afspeelt. Ik heb gekozen voor wit wanneer geen muziek wordt afgespeeld.
+In de trailer van The Bear wordt in korte tijd veel gedaan met muziek en daarmee wordt de toon gezet van dat moment. Ik vind dit een goede manier om dit idee uit te werken. Ik heb de video gedownload en in een eigen html pagina gezet, een basic styling toegevoegd en een javascript code geschreven die wanneer ik wil de achtergrond kan aanpassen. Ik heb daarna aan de hand van de muziek in de video de tijden van het aanpassen van de achtergrondkleur erin gezet.
