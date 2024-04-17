@@ -64,3 +64,11 @@ Tijdens het maken van het prototype ben ik verder gegaan met het idee van kleure
 
 Op basis van deze kleuren wil ik de achtergrond van de videospeler aanpassan naar de kleur die op dat moment past bij de muziek die afspeelt. Ik heb gekozen voor wit wanneer geen muziek wordt afgespeeld.
 In de trailer van The Bear wordt in korte tijd veel gedaan met muziek en daarmee wordt de toon gezet van dat moment. Ik vind dit een goede manier om dit idee uit te werken. Ik heb de video gedownload en in een eigen html pagina gezet, een basic styling toegevoegd en een javascript code geschreven die wanneer ik wil de achtergrond kan aanpassen. Ik heb daarna aan de hand van de muziek in de video de tijden van het aanpassen van de achtergrondkleur erin gezet.
+
+## Week 3 - Prototypen, testen en feedback
+
+De test verliep goed. Ik heb laten zien wat ik heb. Marie vond de kleuren nog te onduidelijk om een weergave te geven van de sfeer van de muziek. Een goede optie zou kunnen zijn om animaties toe te voegen. Rood zou bijvoorbeeld kunnen knipperen om de drukte en stress weer te geven. Hier kan ik goed mee verder. Ook heb ik de kans gehad om bij mijn medestudenten te kijken wat zij hebben bedacht en wat daar de reactie van Marie op was. Daar heb ik een aantal punten van opgeschreven:
+
+- Voor de captions zoveel mogelijk geluiden laten zien en hoe ze klinken. *Deur opent* is niet goed. Wat voor geluid maakt een deur die opent?
+- Sommige geluiden kan je goed met symbolen weergeven. Een goed voorbeeld was een vlieg door het beeld bij het geluid van een vlieg.
+- Als je in beeld iets ziet gebeuren hoef je het geluid niet te laten zien.
