@@ -67,8 +67,26 @@ In de trailer van The Bear wordt in korte tijd veel gedaan met muziek en daarmee
 
 ## Week 3 - Prototypen, testen en feedback
 
+Dit is een voorbeeld van het eerste prototype die ik wil gaan testen. Het eerste gedeelte van de trailer is erg druk qua muziek, daarom de kleur rood. Later wordt de muziek wat verdrietiger, dan verandered de achtergrond naar blauw.
+
+<img src="readme-img/prototype1" width="500px" alt="Eerste prototype">
+
+<img src="readme-img/prototype1.2" width="500px" alt="Eerste prototype">
+
+
+### Test Marie
 De test verliep goed. Ik heb laten zien wat ik heb. Marie vond de kleuren nog te onduidelijk om een weergave te geven van de sfeer van de muziek. Een goede optie zou kunnen zijn om animaties toe te voegen. Rood zou bijvoorbeeld kunnen knipperen om de drukte en stress weer te geven. Hier kan ik goed mee verder. Ook heb ik de kans gehad om bij mijn medestudenten te kijken wat zij hebben bedacht en wat daar de reactie van Marie op was. Daar heb ik een aantal punten van opgeschreven:
 
 - Voor de captions zoveel mogelijk geluiden laten zien en hoe ze klinken. *Deur opent* is niet goed. Wat voor geluid maakt een deur die opent?
 - Sommige geluiden kan je goed met symbolen weergeven. Een goed voorbeeld was een vlieg door het beeld bij het geluid van een vlieg.
 - Als je in beeld iets ziet gebeuren hoef je het geluid niet te laten zien.
+
+### Feedback gesprek Eric
+
+Tijdens het feedback gesprek met Eric hebben we besproken hoe we ervoor staan en wat er van ons verwacht wordt. Er wordt vooral naar de design principles gekeken:
+
+- study situation. Goed onderzoek gedaan naar de situatie van je gebruiker. Marie kan bijvoorbeeld makkelijk series kijken in een plek met veel geluid.
+- ignore conventions. Negeer bekende oplossingen. Ze willen graag zien dat je met andere oplossingen komt dan de bekende.
+- prioritise identity. Het prototype is gemaakt met de identiteit van de gebruiker in gedachte. De tests zijn hier heel bruikbaar voor.
+- add nonsense. Probeer dingen toe te voegen die normaal gesproken erg ongebruikelijk zijn. Zo kan je deze ideeen testen en uitvinden of het misschien toch bruikbaar is.
+
