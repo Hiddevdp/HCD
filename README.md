@@ -69,9 +69,9 @@ In de trailer van The Bear wordt in korte tijd veel gedaan met muziek en daarmee
 
 Dit is een voorbeeld van het eerste prototype die ik wil gaan testen. Het eerste gedeelte van de trailer is erg druk qua muziek, daarom de kleur rood. Later wordt de muziek wat verdrietiger, dan verandered de achtergrond naar blauw.
 
-<img src="readme-img/prototype1" width="500px" alt="Eerste prototype">
+<img src="readme-img/prototype1.png" width="500px" alt="Eerste prototype">
 
-<img src="readme-img/prototype1.2" width="500px" alt="Eerste prototype">
+<img src="readme-img/prototype1.2.png" width="500px" alt="Eerste prototype">
 
 
 ### Test Marie
