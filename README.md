@@ -105,6 +105,13 @@ Het was erg lastig om de juiste content te vinden maar ik heb nu een prototype d
 <img src="readme-img/prototype2.3.png" width="700px" alt="prototype 2">
 
 
+### Test Marie
+
+De dag voor de eindbeoordeling hadden we nog een test staan om de laatste prototypen nog een keer te testen. 
+
+Ik zag aan Marie dat ze het een hele verbetering vond vergeleken vorige keer. Ze gaf aan dat ze zo veel beter de toon van de achtergrondmuziek meekreeg. De animaties van het weer zijn een mooie en creatieve toevoeging die de ervaring voor haar verbeteren. Wel vond ze dat ik misschien iets kon doen om het tempo van de muziek te laten zien. In het eerste gedeelte zouden de bliksemschichten in kunnen slaan op de maat van de muziek. Dit was eigenlijk de enige feedback. 
+
+
 
 
 
