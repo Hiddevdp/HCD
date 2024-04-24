@@ -1,43 +1,48 @@
-// Global state
-let colorState = []; // Declare a global array to store the color states
+// Select the div element
+let div = document.querySelector("#weather");
 
-// Store the original background color
-let originalBackgroundColor = document.body.style.backgroundColor; // Store the original background color of the body
+// Define colorState array and originalBackgroundColor
+let colorState = [];
+let originalBackgroundColor = document.body.style.backgroundColor;
 
-// Function to change background color based on video time
-function changeBackgroundColor(video, startTime, endTime, color) {
+// Function to change background color and add class based on video time
+function changeBackgroundColor(video, startTime, endTime, color, className) {
   // Add new state
-  colorState.push({ startTime, endTime, color }); // Push a new object to the array with the start time, end time, and color
+  colorState.push({ startTime, endTime, color, className });
 }
 
 // Function to handle timeupdate event
 function handleTimeUpdate() {
   // Check the current time against the color state
   for (let state of colorState) {
-    // Loop through each state in the colorState array
     if (
-      this.currentTime >= state.startTime && // If the current time of the video is greater than or equal to the start time of the state
-      this.currentTime < state.endTime // And the current time of the video is less than the end time of the state
+      this.currentTime >= state.startTime &&
+      this.currentTime < state.endTime
     ) {
-      // Change the background color
-      document.body.style.backgroundColor = state.color; // Set the background color of the body to the color of the state
-      return; // Exit the function
+      // Change the background color and add class
+      document.body.style.backgroundColor = state.color;
+      div.classList.add(state.className);
+      return;
+    } else {
+      // If the current time is not within the state's time range, remove the class
+      div.classList.remove(state.className);
     }
   }
 
-  // If no state matches, revert the background color to the original color
-  document.body.style.backgroundColor = originalBackgroundColor; // If no state matches the current time, set the background color of the body back to the original color
+  // If no state matches, revert the background color to the original color and remove class
+  document.body.style.backgroundColor = originalBackgroundColor;
+  div.className = "";
 }
 
 // Select the video element
-let video = document.querySelector("video"); // Select the video element from the DOM
+let video = document.querySelector("video");
 
-// Add event listener
-video.addEventListener("timeupdate", handleTimeUpdate); // Add a timeupdate event listener to the video. This will call the handleTimeUpdate function every time the currentTime of the video updates
+// Add event listener for timeupdate event
+video.addEventListener("timeupdate", handleTimeUpdate);
 
 // Call the function with the desired parameters
-changeBackgroundColor(video, 4, 20, "rgb(126, 9, 9)"); // Call the changeBackgroundColor function with the video element, a start time of 0, an end time of 10, and a color of red
-changeBackgroundColor(video, 26, 36, "rgb(19, 19, 128)"); // Call the changeBackgroundColor function with the video element, a start time of 10, an end time of 20, and a color of blue
-changeBackgroundColor(video, 37, 60, "rgb(207, 194, 1)");
-changeBackgroundColor(video, 63, 75, "rgb(235, 130, 11)");
-changeBackgroundColor(video, 77, 90, "rgb(235, 130, 11)");
+changeBackgroundColor(video, 4, 20, "red", "stormy");
+changeBackgroundColor(video, 26, 36, "rgb(19, 19, 128)", "rain");
+changeBackgroundColor(video, 37, 60, "rgb(207, 194, 1)", "sunshine");
+changeBackgroundColor(video, 63, 75, "rgb(235, 130, 11)", "sunshine");
+changeBackgroundColor(video, 77, 90, "rgb(235, 130, 11)", "sunshine");

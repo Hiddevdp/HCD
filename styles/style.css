@@ -16,18 +16,36 @@ body {
 }
 
 video {
-  width: 95%;
+  width: 50%;
   max-width: 95em;
   border-radius: 1em;
   z-index: 2;
 }
 
-.weather {
+body > div {
   position: absolute;
-  background-image: url(../media/rain.gif);
-  background-position: cover;
-  background-size: 50%;
   height: 100%;
   width: 100%;
   z-index: 1;
+}
+
+.stormy {
+  background-image: url(../media/lightning.gif);
+  background-position: center;
+  background-size: 50%;
+  opacity: 0.5;
+}
+.rain {
+  background-image: url(../media/rain.gif);
+  background-position: center;
+  background-size: 30%;
+  opacity: 0.5;
+}
+
+.sunshine {
+  background-image: url(../media/sunshine.gif);
+  background-position: cover;
+  background-size: 100%;
+  opacity: 0.5;
+  background-repeat: no-repeat;
 }
