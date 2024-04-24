@@ -36,8 +36,8 @@ let video = document.querySelector("video"); // Select the video element from th
 video.addEventListener("timeupdate", handleTimeUpdate); // Add a timeupdate event listener to the video. This will call the handleTimeUpdate function every time the currentTime of the video updates
 
 // Call the function with the desired parameters
-changeBackgroundColor(video, 4, 20, "red"); // Call the changeBackgroundColor function with the video element, a start time of 0, an end time of 10, and a color of red
-changeBackgroundColor(video, 26, 36, "blue"); // Call the changeBackgroundColor function with the video element, a start time of 10, an end time of 20, and a color of blue
-changeBackgroundColor(video, 37, 60, "yellow");
-changeBackgroundColor(video, 63, 75, "orange");
-changeBackgroundColor(video, 77, 90, "orange");
+changeBackgroundColor(video, 4, 20, "rgb(126, 9, 9)"); // Call the changeBackgroundColor function with the video element, a start time of 0, an end time of 10, and a color of red
+changeBackgroundColor(video, 26, 36, "rgb(19, 19, 128)"); // Call the changeBackgroundColor function with the video element, a start time of 10, an end time of 20, and a color of blue
+changeBackgroundColor(video, 37, 60, "rgb(207, 194, 1)");
+changeBackgroundColor(video, 63, 75, "rgb(235, 130, 11)");
+changeBackgroundColor(video, 77, 90, "rgb(235, 130, 11)");

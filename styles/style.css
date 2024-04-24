@@ -12,10 +12,22 @@ body {
   align-items: center;
   background-color: white;
   transition: 1s;
+  position: relative;
 }
 
 video {
   width: 95%;
   max-width: 95em;
   border-radius: 1em;
+  z-index: 2;
+}
+
+.weather {
+  position: absolute;
+  background-image: url(../media/rain.gif);
+  background-position: cover;
+  background-size: 50%;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
 }
