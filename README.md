@@ -69,9 +69,9 @@ In de trailer van The Bear wordt in korte tijd veel gedaan met muziek en daarmee
 
 Dit is een voorbeeld van het eerste prototype die ik wil gaan testen. Het eerste gedeelte van de trailer is erg druk qua muziek, daarom de kleur rood. Later wordt de muziek wat verdrietiger, dan verandered de achtergrond naar blauw.
 
-<img src="readme-img/prototype1" width="500px" alt="Eerste prototype">
+<img src="readme-img/Prototype1.png" width="500px" alt="Eerste prototype">
 
-<img src="readme-img/prototype1.2" width="500px" alt="Eerste prototype">
+<img src="readme-img/prototype1.2.png" width="500px" alt="Eerste prototype">
 
 
 ### Test Marie
@@ -89,4 +89,15 @@ Tijdens het feedback gesprek met Eric hebben we besproken hoe we ervoor staan en
 - ignore conventions. Negeer bekende oplossingen. Ze willen graag zien dat je met andere oplossingen komt dan de bekende.
 - prioritise identity. Het prototype is gemaakt met de identiteit van de gebruiker in gedachte. De tests zijn hier heel bruikbaar voor.
 - add nonsense. Probeer dingen toe te voegen die normaal gesproken erg ongebruikelijk zijn. Zo kan je deze ideeen testen en uitvinden of het misschien toch bruikbaar is.
+
+Ook gaf Eric aan dat het beter was om mij te focussen op alleen de muziek. Aangezien dit een lastig gedeelte is van het verbeteren van de ervaring van Marie. Ik ga mij dus alleen focussen op de muziek zichtbaar maken.
+
+## Week 4 - Prototypen, testen, feedback en eindbeoordeling
+
+Ik heb besloten door mijn gesprek met Eric vorige week mijn alleen te focussen op de muziek. Omdat dit een lastig probleem is om op te lossen voor Marie. Daarom zoek ik hier ook de uitdaging in. Wel heb ik captions toegevoegd omdat die ook belangrijk zijn om de context van de muziek te begrijpen. Ik heb dit gedaan met de tool [VEED.IO](https://www.veed.io/). Die voegt automatisch ondertiteling toe en laat je achteraf ook nog de tekst en timing aanpassen. Ook vond ik het animatie effect goed werken. Je ziet de woorden op het scherm schieten wanneer die uitgesproken worden.
+<img src="readme-img/veed.io.jpg" width="500px" alt="VEED.IO">
+
+Het idee voor de muziek is dus met kleuren aangeven wat de toon van de muziek is. Marie vond dat nog te onduidelijk. "Ik zie rood, maar weet niet wat dit precies betekent, er is meer dan alleen kleur nodig om bij mij een emotie op te roepen." Ik ga dus op zoek naar wat ik kan laten zien om de toon te zetten van de muziek, bovenop de kleur. Rood zou bijvoorbeeld kunnen trillen en bewegen om de drukte uit te beelden. Bij blauw wist ik even niet wat er mogelijk was totdat ik dacht aan regen over het scherm. Regen heeft altijd een beetje een droevig gezicht. Toen bedacht ik me dat rood dan ook donder en bliksem zou kunnen zijn, geel bewolkt maar zonnig en oranje volle zon. De emotie uitdrukken in weer dus.
+
+
 
