@@ -40,11 +40,11 @@ Ik heb al een paar ideeën:
 
 - Een visuele manier om de muziek te laten zien. Een beetje het idee van de oude windows media player.
 
-<img src="readme-img/windowsMediaPlayerVb.jpg" width="500px" alt="Windows Media Player voorbeeld">
+<img src="readme-img/windowsMediaPlayerVb.jpg" width="700px" alt="Windows Media Player voorbeeld">
 
 - het scherm doormiddel van lijnen en positie van ondertiteling te laten zien waar het vandaan komt en hoe het wordt uitgesproken.
 
- <img src="readme-img/theBearIdee1.jpg" width="500px" alt="The bear idee 1">
+ <img src="readme-img/theBearIdee1.jpg" width="700px" alt="The bear idee 1">
 
 In dit voorbeeld zie je "Marcus" achterin aan komt lopen. Hij roept "BEHIND!" zodat zijn collegas kunnen horen dat hij achterlangs loopt en ze niet naar achteren stappen. Zoals te zien is het in caps uitgeschreven met een uitroepteken om te laten zien hoe hard het wordt uitgesproken. "Richie" vraagt daarintegen zacht "what?" aan "Camry".
 
@@ -69,9 +69,9 @@ In de trailer van The Bear wordt in korte tijd veel gedaan met muziek en daarmee
 
 Dit is een voorbeeld van het eerste prototype die ik wil gaan testen. Het eerste gedeelte van de trailer is erg druk qua muziek, daarom de kleur rood. Later wordt de muziek wat verdrietiger, dan verandered de achtergrond naar blauw.
 
-<img src="readme-img/Prototype1.png" width="500px" alt="Eerste prototype">
+<img src="readme-img/Prototype1.png" width="700px" alt="Eerste prototype">
 
-<img src="readme-img/prototype1.2.png" width="500px" alt="Eerste prototype">
+<img src="readme-img/prototype1.2.png" width="700px" alt="Eerste prototype">
 
 
 ### Test Marie
@@ -95,7 +95,7 @@ Ook gaf Eric aan dat het beter was om mij te focussen op alleen de muziek. Aange
 ## Week 4 - Prototypen, testen, feedback en eindbeoordeling
 
 Ik heb besloten door mijn gesprek met Eric vorige week mijn alleen te focussen op de muziek. Omdat dit een lastig probleem is om op te lossen voor Marie. Daarom zoek ik hier ook de uitdaging in. Wel heb ik captions toegevoegd omdat die ook belangrijk zijn om de context van de muziek te begrijpen. Ik heb dit gedaan met de tool [VEED.IO](https://www.veed.io/). Die voegt automatisch ondertiteling toe en laat je achteraf ook nog de tekst en timing aanpassen. Ook vond ik het animatie effect goed werken. Je ziet de woorden op het scherm schieten wanneer die uitgesproken worden.
-<img src="readme-img/veed.io.jpg" width="500px" alt="VEED.IO">
+<img src="readme-img/veed.io.jpg" width="700px" alt="VEED.IO">
 
 Het idee voor de muziek is dus met kleuren aangeven wat de toon van de muziek is. Marie vond dat nog te onduidelijk. "Ik zie rood, maar weet niet wat dit precies betekent, er is meer dan alleen kleur nodig om bij mij een emotie op te roepen." Ik ga dus op zoek naar wat ik kan laten zien om de toon te zetten van de muziek, bovenop de kleur. Rood zou bijvoorbeeld kunnen trillen en bewegen om de drukte uit te beelden. Bij blauw wist ik even niet wat er mogelijk was totdat ik dacht aan regen over het scherm. Regen heeft altijd een beetje een droevig gezicht. Toen bedacht ik me dat rood dan ook donder en bliksem zou kunnen zijn, geel bewolkt maar zonnig en oranje volle zon. De emotie uitdrukken in weer dus.
 
